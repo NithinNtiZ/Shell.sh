@@ -1,0 +1,91 @@
+BASH 
+
+#!bin/bash 
+
+ READ ---------------------------------------------->
+
+
+read -p 'username : ' varname ------ -p uses chaithal multiple input chaiyan pattum 
+read -s 'password : ' varpass ------ -s uses chaithal input type chaiyumbol type chaiyunathu kanan pattila 
+read -a 'enter name : ' name  ------ -a uses chaithal array of names undakam 
+	echo "name = ${name[0]}"
+read     = 					--------  read matram uses chaitha input will be automaticaly add to REPLY variable
+	echo "$REPLY" 
+
+
+ARGUMENT PASSIGN ----------------------------------->
+
+
+normaly oru argument pass chaiyumbol it will store in $1 $2 $3 angane store akum 
+
+array or list ayittu arguments store chaiyanamengl 
+	
+			arg = ("$@")
+
+			to call from array 
+
+				 echo "{$arg[1]}" --------- > to call from list or array
+
+to print out number of argument passed 
+
+	echo "$#" -------- > $# is used for this
+
+
+IF ELSE ELSEIF
+
+
+
+	if [ condition ]
+	then
+		statement 
+	fi 
+
+
+
+		int comparison 		string comparison 
+
+			-eq 				=  
+			-ne 				!=  
+			-gt 				>  
+			-ge 				>= 
+			-lt 				<  
+			-le 				<= 
+
+
+= , >  ------ ithu randum use chaiyumbol use double bracket (( "$1" > "$@")) ,[[ "$1" > "$@"]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
